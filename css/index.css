@@ -120,10 +120,23 @@ main div.teachers-block {
 
 main div.teachers-block div.teachers {
     justify-content: space-between;
+    border: 1px solid red;
+    margin: 10px;
+    width: 400px;
+}
+
+main div.teachers-block div.teachers img {
+    height: 450px;
 }
 
 main div.photos {
     display: flex;
+    flex-direction: row;
+}
+
+main div.photos img {
+    height: 300px;
+    margin: 5px;
 }
 
 footer p{
