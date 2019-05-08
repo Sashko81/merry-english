@@ -12,17 +12,37 @@
     <link rel="shotcut icon" href="images/english_flag_icon.jpg">
     <link rel="alternate" hreflang="en" href="index.html?language=en">
     <link rel="alternate" hreflang="ua" href="index.html"> <!--language default-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css" type="text/css">
     <title>мовна школа MERRY ENGLISH</title>
 <body>
 <header id="top">
-    <nav class="nav d-flex justify-content-between">
-        <a class="nav-item" href="#individual">Курси</a>
-        <a class="nav-item" href="#teachers-header">Викладачі</a>
-        <a class="nav-item" href="#photoalbum">Фотоальбом</a>
-        <a class="nav-item" href="#events">Події</a>
-        <a class="nav-item" href="#about-school">Про школу</a>
-        <a class="nav-item" href="#contacts">Контакти</a>
+      <nav class="navbar navbar-light navbar-expand-lg sticky-top d-flex justify-content-between" style="background-color: #FEF67F; color: red;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+        <a class="nav-link" href="#individual">Курси</a>
+                </li>
+                <li class="nav-item">
+        <a class="nav-link" href="#teachers-header">Викладачі</a>
+                </li>
+                <li class="nav-item">
+        <a class="nav-link" href="#photoalbum">Фотоальбом</a>
+                </li>
+                <li class="nav-item">
+        <a class="nav-link" href="#events">Події</a>
+                </li>
+                <li class="nav-item">
+        <a class="nav-link" href="#about-school">Про школу</a>
+                </li>
+                <li class="nav-item">
+        <a class="nav-link" href="#contacts">Контакти</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 </header>
 <main>
@@ -86,7 +106,7 @@
     <div class="teachers-block">
         <div class="teachers">
             <p>
-                <img src="#" alt="Alla Korostenska" title="Алла Коростенська">
+                <img src="images/alla korostenska.jpg" alt="Alla Korostenska" title="Алла Коростенська">
             </p>
             <p>
                 <strong>Алла Коростенська</strong>
@@ -108,10 +128,16 @@
         </div>
         <div class="teachers">
             <p>
-                <img src="#" alt="#" title="#">
+                <img src="images/liliana ornat.jpg" alt="Liliana Ornat" title="Ліліана Орнат">
             </p>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid at beatae delectus deleniti doloribus ducimus eligendi enim facilis minima molestiae nam officiis omnis perspiciatis quae, quam quis vel veritatis vero.
+                <strong>Ліліана Орнат</strong>
+            </p>
+            <p>
+                <!--Народилася 25 липня 1991 р. в м. Городок-->
+                <!--Закінчила Городоцьку ЗОШ ✓3-->
+                Закінчила НУЛП "Львівська Політехніка" спеціальність "Прикладна лінгвістика", кваліфікація - професіонал у галузі перекладу (англійська і німецька мови)
+                та комп'ютерної обробки мовної інформації.
             </p>
         </div>
     </div>
@@ -195,6 +221,26 @@
         <br>
         +380970000001
     </p>
+    <!--version footer semantic-->
+    <section class="contact" vocab="http://schema.org/" typeof="LocalBusiness">
+        <h2>Contact us!</h2>
+        <address property="email">
+            <a href="mailto:us@example.com">us@example.com</a>
+        </address>
+        <address property="address" typeof="PostalAddress">
+            <p property="streetAddress">123 Main St., Suite 404</p>
+            <p>
+                <span property="addressLocality">Yourtown</span>,
+                <span property="addressRegion">AK</span>,
+                <span property="postalCode">12345</span>
+            </p>
+            <p property="addressCountry">United States of America</p>
+        </address>
+    </section>
 </footer>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
 </body>
 </html>
