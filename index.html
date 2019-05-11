@@ -15,36 +15,91 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css" type="text/css">
     <title>мовна школа MERRY ENGLISH</title>
+
 <body>
-<header id="top">
-      <nav class="navbar navbar-light navbar-expand-lg sticky-top d-flex justify-content-between" style="background-color: #FEF67F; color: red;">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-        <a class="nav-link" href="#individual">Курси</a>
-                </li>
-                <li class="nav-item">
+<header id="top" class="sticky-top d-flex justify-content-between" style="background-color: #FEF67F;">
+<nav class="navbar navbar-light navbar-expand-lg flex-fill" style="background-color: #FEF67F;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand ml-1 mr-1 flex-fill">
+    <img src="images/english_flag_icon.jpg" width="50" height="50" alt="logo" title="Logo">
+    </a>
+    <a class="navbar-text ml-1 mr-1 motto flex-fill" style="color: red;">
+    <p>Вивчай англійську з нами</p>
+    </a>
+    <div class="collapse navbar-collapse flex-fill" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" style="border: 1px solid red; background-color: #FEF67F;">
+        <li class="nav-item active">
+        <a class="nav-link" href="#individual">Курси
+        <span class="sr-only">(current)</span>
+        </a>
+        </li>
+        <li class="nav-item">
         <a class="nav-link" href="#teachers-header">Викладачі</a>
-                </li>
-                <li class="nav-item">
-        <a class="nav-link" href="#photoalbum">Фотоальбом</a>
-                </li>
-                <li class="nav-item">
-        <a class="nav-link" href="#events">Події</a>
-                </li>
-                <li class="nav-item">
-        <a class="nav-link" href="#about-school">Про школу</a>
-                </li>
-                <li class="nav-item">
-        <a class="nav-link" href="#contacts">Контакти</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+        </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Події
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#photoalbum">Фотоальбом</a>
+                                       <!--<a class="dropdown-item" href="#olmed-woman">Консультація</a>-->
+                    <!--&lt;!&ndash;<div class="dropdown-divider"></div>&ndash;&gt;-->
+                    <!--<a class="dropdown-item" href="#olmed-examination">Вагітним</a>-->
+                </div>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#about-school">Про школу</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#contacts">Контакти</a>
+            </li>
+        </ul>
+        <!--<form class="form-inline my-2 my-lg-0">-->
+            <!--<input class="form-control mr-sm-2" type="search" placeholder="ваше питання" aria-label="Search">-->
+            <!--<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Пошук</button>-->
+        <!--</form>-->
+    </div>
+</nav>
 </header>
+    <!--<nav class="navbar navbar-light navbar-expand-lg" style="background-color: #FEF67F;">-->
+        <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
+            <!--<span class="navbar-toggler-icon"></span>-->
+        <!--</button>-->
+        <!--<a class="navbar-brand ml-1 mr-1">-->
+            <!--<img src="images/english_flag_icon.jpg" width="50" height="50" alt="logo" title="Logo">-->
+        <!--</a>-->
+        <!--<a class="navbar-text ml-1 mr-1 motto" style="color: red;">-->
+            <!--<p>Вивчай англійську з нами</p>-->
+        <!--</a>-->
+        <!--<div class="collapse navbar-collapse" id="navbarSupportedContent">-->
+            <!--<ul class="navbar-nav mr-auto" style="border: 1px solid red;">-->
+                <!--<li class="nav-item active">-->
+                    <!--<a class="nav-link" href="#individual">Курси-->
+                        <!--<span class="sr-only">(current)</span>-->
+                    <!--</a>-->
+                <!--</li>-->
+                <!--<li class="nav-item">-->
+                    <!--<a class="nav-link" href="#teachers-header">Викладачі</a>-->
+                <!--</li>-->
+                <!--<li class="nav-item dropdown">-->
+                    <!--<a class="nav-link dropdown-toggle" href="#events" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Події-->
+                    <!--</a>-->
+                    <!--<div class="dropdown-menu" aria-labelledby="navbarDropdown">-->
+                    <!--<a class="dropdown-item" href="#photoalbum">Фотоальбом</a>-->
+                        <!--<a class="dropdown-item" href="#photoalbum">Фотоальбом</a>-->
+                    <!--</div>-->
+                <!--</li>-->
+                <!--<li class="nav-item">-->
+                    <!--<a class="nav-link" href="#about-school">Про школу</a>-->
+                <!--</li>-->
+                <!--<li class="nav-item">-->
+                    <!--<a class="nav-link" href="#contacts">Контакти</a>-->
+                <!--</li>-->
+            <!--</ul>-->
+        <!--</div>-->
+    <!--</nav>-->
+<!--</header>-->
 <main>
     <div class="background-with-logo">
         <h1>мовна школа</h1>
@@ -52,24 +107,17 @@
     </div>
     <div class="blocks">
         <div class="container">
-            <div class="block-header" id="individual">
+            <div class="block-header col-4" id="individual">
                 <h3>індивідуальні заняття</h3>
             </div>
-            <div class="block-text individual">
+            <div class="block-text individual col-8">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid architecto asperiores aspernatur
                 autem corporis delectus distinctio dolor dolore, dolorem est explicabo facere fugiat incidunt ipsam
-                ipsum iste, itaque laborum libero odio optio placeat, quae quaerat quam quasi quo reiciendis sapiente
-                soluta temporibus ullam ut vel vitae voluptatum. Ad aliquam amet animi at aut consequatur debitis
-                delectus deserunt dignissimos, dolore dolorum et facere, fugiat ipsam iste, iusto laudantium maiores
-                natus nihil nostrum officiis praesentium quibusdam quis quisquam rerum sed similique sint tempore ut
-                vero? Aperiam asperiores cupiditate dolorem minima, numquam odio officiis quasi sit! Ab ad consequatur
-                cumque dolore eaque eos incidunt itaque molestias porro possimus quaerat quo repellat repellendus sunt,
-                voluptates? Beatae enim modi odio porro, provident repellendus sint! Accusamus, aliquid aut consequatur
-                cupiditate debitis doloribus eius fugiat inventore ipsam laboriosam molestias nemo numquam
+                ipsum iste, itaque laborum libero odio optio placeat, quae
             </div>
         </div>
         <div class="container">
-            <div class="block-text group">
+            <div class="block-text group col-8">
                 Нова комунікативна методика навчання, розроблена Кембріджським університетом, передбачає:
                 -зарахування в групу визначеного рівня; стандарт кількості слухачів;
                 -спеціальні підручники;
@@ -78,26 +126,26 @@
                 -заняття в зручний для Вас час!
 
             </div>
-            <div class="block-header" id="group">
+            <div class="block-header col-4" id="group">
                 <h3>заняття в групах</h3>
             </div>
         </div>
         <div class="container">
-            <div class="block-header" id="children">
+            <div class="block-header col-4" id="children">
                 <h3>дитячі групи</h3>
             </div>
-            <div class="block-text children">
-                В нашій школі проводяться групові заняття для дітей шкільного віку з різним рівнем підготовки. Навчальний матеріал  відповідає інтересам та віку учнів. Завдяки розвиваючому аспекту діти вивчають іноземну мову та одночасно розширюють свій світогляд у різноманітних областях знань  Особистісно – орієнтований підхід дозволяє розкрити творчий потенціал дитини. Вірші, оповідання, захоплюючі історії заохочують школяра до творчого процесу навчання з перших занять. Матеріал опрацьовується у серії вправ граматики та аудіювання, легко запам'ятовують пісні з основними лексичними одиницями. Заняття проходять  в приємній атмосфері, що сприяє позитивному ставленню.
+            <div class="block-text children col-8">
+                В нашій школі проводяться групові заняття для дітей шкільного віку з різним рівнем підготовки.
+                <!--Навчальний матеріал  відповідає інтересам та віку учнів. Завдяки розвиваючому аспекту діти вивчають іноземну мову та одночасно розширюють свій світогляд у різноманітних областях знань  Особистісно – орієнтований підхід дозволяє розкрити творчий потенціал дитини. Вірші, оповідання, захоплюючі історії заохочують школяра до творчого процесу навчання з перших занять. Матеріал опрацьовується у серії вправ граматики та аудіювання, легко запам'ятовують пісні з основними лексичними одиницями.--> Заняття проходять  в приємній атмосфері, що сприяє позитивному ставленню.
             </div>
         </div>
         <div class="container">
-            <div class="block-text abroad">
+            <div class="block-text abroad col-8">
                 У нашій школі проводяться літні табори для дітей віком від 5 до 12 років. Діти весело проводять час, спілкуються та граються на англійській мові.
                 Організовуємо заняття та зустрічі з так званими "native speakers" для поглибленого вивчення мови.
-                Для студентів нашої школи можливе двохтижневе стажування у Великобританії. Воно передбачає проживання в англійській сім'ї, відвідування занять в коледжі, а також незабутні екскурсії англійськими містечками, ознайомлення з їхньою історією та життям.
-
+                <!--Для студентів нашої школи можливе двохтижневе стажування у Великобританії. Воно передбачає проживання в англійській сім'ї, відвідування занять в коледжі, а також незабутні екскурсії англійськими містечками, ознайомлення з їхньою історією та життям.-->
             </div>
-            <div class="block-header" id="abroad">
+            <div class="block-header col-4" id="abroad">
                 <h3>стажування за кордоном. літні табори</h3>
             </div>
         </div>
@@ -118,7 +166,7 @@
         <div class="teachers">
             <p>
                 <img src="images/tetiana_rusyn.jpg" alt="Tetyana Rusyn" title="Тетяна Русин">
-               </p>
+            </p>
             <p>
                 <strong>Тетяна Русин</strong>
             </p>
@@ -204,14 +252,14 @@
 <footer class="footer">
     <p class="icons-footer">
         ми у соціальних мережах:
-        <p class="icons">
-            <img src="#" alt="#" title="#">
-            <img src="#" alt="#" title="#">
-            <img src="#" alt="#" title="#">
-            <img src="#" alt="#" title="#">
-        </p>
-        2008-2019 Merry English
-    </p>
+    <p class="icons">
+        <img src="#" alt="#" title="#">
+        <img src="#" alt="#" title="#">
+        <img src="#" alt="#" title="#">
+        <img src="#" alt="#" title="#">
+        <!--    </p>-->
+        <!--    2008-2019 Merry English-->
+        <!--</p>-->
     <p class="schedule">
         графік роботи
         <br>
@@ -222,22 +270,26 @@
         +380970000001
     </p>
     <!--version footer semantic-->
-    <section class="contact" vocab="http://schema.org/" typeof="LocalBusiness">
-        <h2>Contact us!</h2>
-        <address property="email">
-            <a href="mailto:us@example.com">us@example.com</a>
-        </address>
-        <address property="address" typeof="PostalAddress">
-            <p property="streetAddress">123 Main St., Suite 404</p>
-            <p>
-                <span property="addressLocality">Yourtown</span>,
-                <span property="addressRegion">AK</span>,
-                <span property="postalCode">12345</span>
-            </p>
-            <p property="addressCountry">United States of America</p>
-        </address>
-    </section>
+    <!--<section class="contact" vocab="http://schema.org/" typeof="LocalBusiness">-->
+    <!--    <h2>Contact us!</h2>-->
+    <!--    <address property="email">-->
+    <!--        <a href="mailto:us@example.com">us@example.com</a>-->
+    <!--    </address>-->
+    <!--    <address property="address" typeof="PostalAddress">-->
+    <!--        <p property="streetAddress">123 Main St., Suite 404</p>-->
+    <!--        <p>-->
+    <!--            <span property="addressLocality">Yourtown</span>,-->
+    <!--            <span property="addressRegion">AK</span>,-->
+    <!--            <span property="postalCode">12345</span>-->
+    <!--        </p>-->
+    <!--        <p property="addressCountry">United States of America</p>-->
+    <!--    </address>-->
+    <!--</section>-->
 </footer>
+<!--<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>-->
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>-->
+<!--<script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>-->
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
