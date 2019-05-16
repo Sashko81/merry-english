@@ -51,7 +51,7 @@ header nav a.motto {
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
-    border: #F06E9C solid 1px;
+    /*border: #F06E9C solid 1px;*/
 }
 
 @media (max-width: 992px) {
@@ -91,7 +91,7 @@ header nav div.collapse ul  {
 main .background-with-logo{
     background-color: darkblue;
     height: 380px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     background-image: url("../images/main-photo.jpg");
     background-position: center center;
     background-size: cover;
@@ -227,7 +227,7 @@ main .container {
         /*flex: 5;*/
         font-size: 18px;
         width: 700px;
-        border: solid 1px red;
+        /*border: solid 1px red;*/
     }
 
     /*main .container #group,*/
@@ -271,7 +271,7 @@ main .container #group h3 {
 
     main div.teachers-block div.teachers {
         justify-content: space-between;
-        border: 1px solid #000000;
+        /*border: 1px solid #000000;*/
         margin: 10px;
         width: 330px;
     }
@@ -294,7 +294,7 @@ main .container #group h3 {
     main div.teachers-block div.teachers img {
         height: 425px;
         margin: 5px;
-        border: solid 1px green;
+        /*border: solid 1px green;*/
     }
 
     @media (max-width: 992px) {
@@ -328,13 +328,13 @@ main .container #group h3 {
 
     main div#contacts {
         margin-left: 10px;
-        border: black solid 1px;
+        /*border: black solid 1px;*/
     }
 
     main div .map>p {
         padding-left: 100px;
         font-weight: bold;
-        border: black solid 1px;
+        /*border: black solid 1px;*/
     }
 
     /*main div.map {*/
@@ -357,7 +357,7 @@ main .container #group h3 {
         display: flex;
         flex-direction: row-reverse;
         margin-right: 20px;
-        border: solid 1px red;
+        /*border: solid 1px red;*/
 
     }
 /*footer p a .up-direction {*/
