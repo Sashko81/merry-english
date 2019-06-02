@@ -186,8 +186,7 @@ main .container #group h3 {
 main div.teachers-block {
     display: flex;
     justify-content: center;
-    margin: 10px;
-    border: red 1px solid;
+    /*margin: 10px;*/
 }
 
 @media (max-width: 992px) {
