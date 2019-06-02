@@ -179,11 +179,13 @@ main .container #abroad {
 
 main .container #group h3 {
     margin-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 main div.teachers-block {
     display: flex;
-    flex-direction: center;
+    justify-content: center;
     margin: 10px;
     border: red 1px solid;
 }
