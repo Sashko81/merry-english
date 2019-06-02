@@ -162,25 +162,32 @@ main .container .block-text {
 main .container #individual {
     background-color: #F06E9C;
     margin-right: 20px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 main .container #group {
     background-color: #FEF67F;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 main .container #children {
     background-color: violet;
     margin-right: 20px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 main .container #abroad {
     background-color: #F06E9C;
+    font-size: 25px;
+    font-weight: bold;
 }
 
-main .container #group h3 {
-    margin-left: 10px;
-    font-size: 30px;
-    font-weight: bold;
+main .container h3 {
+    display: flex;
+    justify-content: center;
 }
 
 main div.teachers-block {
