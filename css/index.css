@@ -92,7 +92,7 @@ main div h1, main div h2 {
 }
 
 main div h1 {
-    color: yellow;
+    color: #ff0000;
     padding-top: 20px;
     padding-bottom: 5px;
     font-size: 30px;
@@ -105,7 +105,7 @@ main div h1 {
 }
 
 main div h2 {
-    color: red;
+    color: #ffff00;
     font-size: 34px;
     /*font-weight: bold;*/
 }
@@ -162,30 +162,34 @@ main .container .block-text {
 main .container #individual {
     background-color: #F06E9C;
     margin-right: 20px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
+    text-align: center;
 }
 
 main .container #group {
     background-color: #FEF67F;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
+    text-align: center;
 }
 
 main .container #children {
     background-color: violet;
     margin-right: 20px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
+    text-align: center;
 }
 
 main .container #abroad {
     background-color: #F06E9C;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
+    text-align: center;
 }
 
-main .container h3 {
+main .container .block-header {
     display: flex;
     justify-content: center;
 }
@@ -227,6 +231,10 @@ main div.teachers-block div.teachers img {
     }
 }
 
+main div.teachers-block div.teachers p strong {
+    text-align: center;
+}
+
 main h4 {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -238,6 +246,11 @@ main h4 {
 .btn-outline-warning {
     width: 200px;
     background-color: #FEF67F;
+    font-weight: bold;
+}
+
+main div#about-school > span.international-lang {
+    font-size: 18px;
     font-weight: bold;
 }
 
