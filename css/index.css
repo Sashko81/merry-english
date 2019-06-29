@@ -12,6 +12,12 @@ header {
     height: 76px;
 }
 
+@media (max-width: 990px) {
+    body header#top {
+        align-items: center;
+    }
+}
+
 header nav a {
     font-size: 22px;
 }
